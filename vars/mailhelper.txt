@@ -1,0 +1,20 @@
+This helper contains methods to easy send mails with Jenkins Pipeline.
+
+<strong>Important:</strong> This module needs Mail Extension Plugin.
+
+<dl>
+  <dt>
+    <code>sendBuildResult()</code>
+  </dt>
+  <dd>
+    Sends the current build result to the developers.
+    Can be used as post action.
+  </dd>
+
+  <dt>
+    <code>sendMessage(subject, message)</code>
+  </dt>
+  <dd>
+    Sends a message to developers of this build.
+  </dd>
+</dl>
